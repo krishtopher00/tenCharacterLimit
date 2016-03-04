@@ -4,6 +4,6 @@ f.close()
 
 f = open("output.txt","w")
 for character in terms:
-    f.write(character[1:10])
+    f.write(character[0:10] + "\n")
     
 f.close()
