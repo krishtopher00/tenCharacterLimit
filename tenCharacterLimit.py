@@ -1,5 +1,5 @@
 f = open("input.txt","r")
-terms = f.readlines().splitlines()
+terms = f.read().splitlines()
 f.close()
 
 f = open("output.txt","w")
